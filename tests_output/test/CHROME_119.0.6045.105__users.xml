@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test.users"
+    errors="2" failures="1" hostname="" id="" package="users" skipped="14"
+    tests="2" time="60.13" timestamp="">
+  
+    <testcase name="PA001 users records" classname="test.users" time="12.75" assertions="0">
+    </testcase>
+  
+    <testcase name="PA004 Add new user" classname="test.users" time="17.32" assertions="1">  <failure message="Testing if element &lt;#swal2-title&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5264ms)">    at DescribeInstance.&lt;anonymous&gt; (D:\Automation\New PayAbhi\qenta-payabhi\test\users.js:40:13)</failure>
+
+    
+    <error message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.105)" type="error"><![CDATA[
+    NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.105)
+    at Object.throwDecodedError (D:\Automation\New PayAbhi\qenta-payabhi\node_modules\selenium-webdriver\lib\error.js:524:15)
+    at parseHttpResponse (D:\Automation\New PayAbhi\qenta-payabhi\node_modules\selenium-webdriver\lib\http.js:601:13)
+    at Executor.execute (D:\Automation\New PayAbhi\qenta-payabhi\node_modules\selenium-webdriver\lib\http.js:529:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Driver.execute (D:\Automation\New PayAbhi\qenta-payabhi\node_modules\selenium-webdriver\lib\webdriver.js:745:17)
+    at async Driver.findElements (D:\Automation\New PayAbhi\qenta-payabhi\node_modules\selenium-webdriver\lib\webdriver.js:1089:17)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    D:\Automation\New PayAbhi\qenta-payabhi\test\users.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     35 |     .setValue(&#39;input[name=&#34;last_name&#34;]&#39;,&#39;khan&#39;)
+     36 |     .click(&#39;select[name=&#34;role_id&#34;]&#39;)
+     37 |     .click(&#39;#content &gt; div &gt; form &gt; div:nth-child(10) &gt; div.col-sm-8.col-lg-8 &gt; div &gt; select &gt; option:nth-child(2)&#39;) 
+     38 |     .click(&#39;#saveButton&#39;)
+     39 |     .pause(2000)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchWindowError
+   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.105)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="PA005 Blank user name" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA006 Unselected Organization" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA007 Password blank" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA008 Confirm Password blank" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA009 Blank Mobil no" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA010 Blank Email" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA011 blank first name" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA012 unselected role" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA013 last name blank" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA034 All fields blak" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA035 existing user data" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA036 Different password" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA022 Reset button" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA023 Back button" classname="test.users">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

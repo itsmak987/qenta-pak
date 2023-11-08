@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="test.login"
+    errors="0" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="9" time="119.9" timestamp="">
+  
+    <testcase name="Navigate to url" classname="test.login" time="3.835" assertions="0">
+    </testcase>
+  
+    <testcase name="PA001 Valid login" classname="test.login" time="3.758" assertions="0">
+    </testcase>
+  
+    <testcase name="PA002 invalid login" classname="test.login" time="10.29" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="PA003 invalid username and valid password" classname="test.login" time="7.815" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="PA004 Valid username and invalid password" classname="test.login" time="7.370" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="PA005 blank username and password" classname="test.login" time="5.615" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="PA006 empty username and valid password" classname="test.login" time="6.394" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="PA007 valid username and blank password" classname="test.login" time="6.089" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="PA011 Login by Enter key" classname="test.login" time="8.794" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
