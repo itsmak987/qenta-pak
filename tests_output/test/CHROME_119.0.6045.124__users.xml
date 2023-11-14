@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test.users"
+    errors="0" failures="1" hostname="" id="" package="users" skipped="14"
+    tests="2" time="66.82" timestamp="">
+  
+    <testcase name="PA001 users records" classname="test.users" time="19.17" assertions="0">
+    </testcase>
+  
+    <testcase name="PA004 Add new user" classname="test.users" time="14.24" assertions="1">  <failure message="Testing if element &lt;#swal2-title&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;element could not be located&#34; (5388ms)">    at DescribeInstance.&lt;anonymous&gt; (D:\Automation\New PayAbhi\qenta-payabhi\test\users.js:40:13)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="PA005 Blank user name" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA006 Unselected Organization" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA007 Password blank" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA008 Confirm Password blank" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA009 Blank Mobil no" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA010 Blank Email" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA011 blank first name" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA012 unselected role" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA013 last name blank" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA034 All fields blak" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA035 existing user data" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA036 Different password" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA022 Reset button" classname="test.users">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PA023 Back button" classname="test.users">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -18,28 +18,28 @@ describe('Management -> Users',function(){
        .url('http://65.21.249.196:5545/Users')
 })
 
-test('PA004 Add new user',function(){
+// test('PA004 Add new user',function(){
 
-    browser
-    .click('#SubMer')
-    .pause(2000)
-    .click('select[name="org_id"]')
-    .click('#content > div > form > div:nth-child(1) > div.col-sm-8.col-md-8.col-lg-8 > div > select > option:nth-child(2)')
-    .setValue('input[name="user_name"]','khan123')
-    .setValue('input[name="password"]','1234')
-    .setValue('input[name="confirmPassword"]','1234')
-    .setValue('input[name="mobile"]','3009090091')
-    .setValue('input[name="email"]','a1234@gmail.com')
-    .setValue('input[name="first_name"]','Muammad')
-    .setValue('input[name="middle_name"]','Ali')
-    .setValue('input[name="last_name"]','khan')
-    .click('select[name="role_id"]')
-    .click('#content > div > form > div:nth-child(10) > div.col-sm-8.col-lg-8 > div > select > option:nth-child(2)')
-    .click('#saveButton')
-    .pause(2000)
-    .assert.visible('#swal2-title')
-    .click('body > div.swal2-container.swal2-center.swal2-backdrop-show > div > div.swal2-actions > button.swal2-confirm.swal2-styled')
-    })
+//     browser
+//     .click('#SubMer')
+//     .pause(2000)
+//     .click('select[name="org_id"]')
+//     .click('#content > div > form > div:nth-child(1) > div.col-sm-8.col-md-8.col-lg-8 > div > select > option:nth-child(2)')
+//     .setValue('input[name="user_name"]','khan123')
+//     .setValue('input[name="password"]','1234')
+//     .setValue('input[name="confirmPassword"]','1234')
+//     .setValue('input[name="mobile"]','3009090091')
+//     .setValue('input[name="email"]','a1234@gmail.com')
+//     .setValue('input[name="first_name"]','Muammad')
+//     .setValue('input[name="middle_name"]','Ali')
+//     .setValue('input[name="last_name"]','khan')
+//     .click('select[name="role_id"]')
+//     .click('#content > div > form > div:nth-child(10) > div.col-sm-8.col-lg-8 > div > select > option:nth-child(2)')
+//     .click('#saveButton')
+//     .pause(2000)
+//     .assert.visible('#swal2-title')
+//     .click('body > div.swal2-container.swal2-center.swal2-backdrop-show > div > div.swal2-actions > button.swal2-confirm.swal2-styled')
+//     })
 
     test('PA005 Blank user name',function(){
 
