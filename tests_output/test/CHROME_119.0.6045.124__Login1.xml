@@ -5,14 +5,24 @@
 
   <testsuite name="test.Login1"
     errors="0" failures="0" hostname="" id="" package="Login1" skipped="0"
-    tests="2" time="70.01" timestamp="">
+    tests="2" time="85.02" timestamp="">
   
-    <testcase name="Forgot Password" classname="test.Login1" time="7.481" assertions="1">
+    <testcase name="Forgot Password" classname="test.Login1" time="16.89" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
   
-    <testcase name="Login functionality" classname="test.Login1" time="27.52" assertions="8">
+    <testcase name="Login functionality" classname="test.Login1" time="25.62" assertions="8">
 
     
 

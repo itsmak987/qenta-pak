@@ -6,30 +6,38 @@ describe ('Login Page tests', function(){
       .waitForElementVisible('#login > div > div > div > div > div:nth-child(1) > h2')
       .pause(3000)
 
-    //   //Forgot Password testcase
-    //   .click('#login > div > div > div > div > div.forgetpassword > a')
-    //   .waitForElementVisible('#login > div > div > div > div > div > h2')
-    //   .pause(2000)
+      //Forgot Password testcase
+      .click('#login > div > div > div > div > div.forgetpassword > a')
+      .waitForElementVisible('#login > div > div > div > div > div > h2')
+      .pause(2000)
 
-    //   //Email field blank
-    //   .click('#btn-login')
+      //Email field blank
+      .click('#btn-login')
      
-    //   .assert.attributeEquals('#Email', 'required', 'true', 'Please fill out this field (Recover Password).')
-    //   // .assert.valueContains('')
-    //   browser.pause(1000)
+     // .assert.attributeEquals('input[name="email"]', 'required', 'true', 'Please fill out this field (Recover Password).')
+      // .assert.valueContains('')
+      
+      //changes done here
+      .assert.elementPresent('#password-recovery-form > div.form-group > div')
+      browser.pause(1000)
 
-    //   //Invalid Email
-    //   .setValue('#Email', '1234')
-    //   .click('#btn-login')
-    //   .pause(2000)
+      //Invalid Email
+      .setValue('input[name="email"]', '1234')
+      .click('#btn-login')
+      .pause(2000)
 
-    //   // Valid Email
-    //   .setValue('#Email', 'test@mail.com')
-    //   .click('#btn-login')
-    //   .pause(2000)
+      // Valid Email
+      .setValue('input[name="email"]', 'test@mail.com')
+      .click('#btn-login')
+      .pause(2000)
 
-    //   .click('#achor-color')
-    //   .waitForElementVisible('#login > div > div > div > div > div:nth-child(1) > h2')
+
+      //changes done here
+      .assert.textContains('#swal2-html-container','We have sent you an Email.')
+      .assert.textContains('#swal2-title','Please check your Mail Box.')
+      .click('body > div.swal2-container.swal2-center.swal2-backdrop-show > div > div.swal2-actions > button.swal2-confirm.swal2-styled')
+      .click('#achor-color')
+      .waitForElementVisible('#login > div > div > div > div > div:nth-child(1) > h2')
 
     }) 
 
