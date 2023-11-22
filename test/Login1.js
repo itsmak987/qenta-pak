@@ -14,11 +14,11 @@ describe ('Login Page tests', function(){
       //Email field blank
       .click('#btn-login')
      
-     // .assert.attributeEquals('input[name="email"]', 'required', 'true', 'Please fill out this field (Recover Password).')
+     .assert.attributeEquals('input[name="email"]', 'required', 'true', 'Please fill out this field (Recover Password).')
       // .assert.valueContains('')
       
       //changes done here
-      .assert.elementPresent('#password-recovery-form > div.form-group > div')
+     // .assert.elementPresent('#password-recovery-form > div.form-group > div')
       browser.pause(1000)
 
       //Invalid Email
