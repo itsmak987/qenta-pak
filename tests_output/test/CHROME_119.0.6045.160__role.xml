@@ -5,19 +5,19 @@
 
   <testsuite name="test.role"
     errors="0" failures="0" hostname="" id="" package="role" skipped="0"
-    tests="3" time="32.24" timestamp="">
+    tests="3" time="41.45" timestamp="">
   
-    <testcase name="add role" classname="test.role" time="12.99" assertions="1">
+    <testcase name="add role" classname="test.role" time="17.26" assertions="1">
 
     
     </testcase>
   
-    <testcase name="existing role" classname="test.role" time="1.680" assertions="1">
+    <testcase name="existing role" classname="test.role" time="2.203" assertions="1">
 
     
     </testcase>
   
-    <testcase name="blank fields" classname="test.role" time="1.441" assertions="3">
+    <testcase name="blank fields" classname="test.role" time="1.257" assertions="3">
 
     
 
